@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "a61f563b-0565-4085-a7eb-a74af0979b7e",
+		"name": "Nest.js Async Local Storage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13806219",
+		"_collection_link": "https://orange-capsule-97303.postman.co/workspace/My-Workspace~ca50b756-9584-4d30-8293-59972d88a07b/collection/13806219-a61f563b-0565-4085-a7eb-a74af0979b7e?action=share&source=collection_link&creator=13806219"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-correlation-key",
+						"value": "123",
+						"type": "text"
+					},
+					{
+						"key": "Authentication",
+						"value": "ewqdsa323",
+						"type": "text"
+					},
+					{
+						"key": "x-user-id",
+						"value": "22",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "2fsdfds2",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001"
+				}
+			},
+			"response": []
+		}
+	]
+}
